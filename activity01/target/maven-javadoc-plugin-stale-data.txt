@@ -1,0 +1,47 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/ADMIN/Downloads/cst239-lab1/activity01/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/ADMIN/Downloads/cst239-lab1/activity01/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'activity01 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'activity01 0.0.1-SNAPSHOT API'
+edu.gcu.cst239.kabwe.elijah.lab1
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\src\main\java = 1789950185253
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\allclasses-index.html = 1789965717099
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\allpackages-index.html = 1789965717107
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\copy.svg = 1789965717185
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\element-list = 1789965716892
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\help-doc.html = 1789965717177
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\index-all.html = 1789965717162
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\index.html = 1789965717170
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\link.svg = 1789965717187
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\member-search-index.js = 1789965717119
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\module-search-index.js = 1789965717110
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\overview-tree.html = 1789965717075
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\package-search-index.js = 1789965717113
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\script.js = 1789965717183
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search-page.js = 1789965717196
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search.html = 1789965717165
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search.js = 1789965717192
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\stylesheet.css = 1789965717181
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\tag-search-index.js = 1789965717122
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\type-search-index.js = 1789965717116
