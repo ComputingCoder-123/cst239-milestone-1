@@ -9,6 +9,7 @@ import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models.InventoryItem;
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models.Product;
 
 public class InventoryManager implements InventoryService {
+    // Logic for handling inventory file persistence and data loading
     private final List<InventoryItem> inventory = new ArrayList<>();
 
     public InventoryManager() {
