@@ -7,6 +7,7 @@ import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models.Product;
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.util.InputUtilities;
 
 public class StoreManagerActions {
+
     private final InventoryService inventoryService;
 
     public StoreManagerActions(InventoryService inventoryService) {
@@ -22,10 +23,11 @@ public class StoreManagerActions {
             System.out.println("3. Add New Item");
             System.out.println("4. Remove Product");
             System.out.println("5. Back to Main Menu");
+
             int choice = InputUtilities.readInt("Select option: ");
 
             switch (choice) {
-                case 1 -> inventoryService.getAllInventoryItems().forEach(System.out::println);
+                case 1 -> viewProducts();
                 case 2 -> {
                     String term = InputUtilities.readString("Enter search term: ");
                     inventoryService.searchProductsByName(term).forEach(System.out::println);
@@ -42,6 +44,18 @@ public class StoreManagerActions {
         }
     }
 
+    private void viewProducts() {
+        System.out.println("\n--- Inventory Items ---");
+        var items = inventoryService.getAllInventoryItems();
+        if (items.isEmpty()) {
+            System.out.println("No products available.");
+        } else {
+            for (var item : items) {
+                System.out.println(item);
+            }
+        }
+    }
+
     private void addNewItem() {
         int id = InputUtilities.readInt("Enter ID: ");
         String name = InputUtilities.readString("Enter Name: ");
@@ -51,9 +65,13 @@ public class StoreManagerActions {
         int qty = InputUtilities.readInt("Enter Quantity: ");
 
         Product product = new Product.Builder()
-                .setId(id).setName(name).setDescription(desc)
-                .setPrice(price).setCategory(cat)
-                .setDateOfManufacture(LocalDate.now()).build();
+                .setId(id)
+                .setName(name)
+                .setDescription(desc)
+                .setPrice(price)
+                .setCategory(cat)
+                .setDateOfManufacture(LocalDate.now())
+                .build();
 
         inventoryService.addInventoryItem(new InventoryItem(product, qty));
         System.out.println("Product added successfully!");

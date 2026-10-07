@@ -14,6 +14,7 @@ public class StartupRunner {
         System.out.println("Welcome to the Storefront Application!");
         boolean running = true;
         while (running) {
+            System.out.println("Developer: Elijah Kabwe");
             System.out.println("\n--- Main Menu ---");
             System.out.println("1. Customer Options");
             System.out.println("2. Store Manager Options");
