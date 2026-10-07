@@ -3,7 +3,7 @@ package edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services;
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.util.InputUtilities;
 
 public class CustomerActions {
-
+// Logic for handling cart file persistence and save/load state
     public void displayMenu() {
         boolean running = true;
         while (running) {
