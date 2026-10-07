@@ -7,7 +7,7 @@ import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.StoreManagerActio
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.util.InputUtilities;
 
 public class StartupRunner {
-
+// Final Milestone 2 Build: Application testing and setup complete
     public static void main(String[] args) {
         InventoryService inventoryService = new InventoryManager();
         StoreManagerActions managerActions = new StoreManagerActions(inventoryService);
