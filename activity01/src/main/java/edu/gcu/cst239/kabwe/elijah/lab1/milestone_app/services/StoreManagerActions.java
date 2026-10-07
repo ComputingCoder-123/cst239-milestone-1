@@ -33,6 +33,7 @@ public class StoreManagerActions {
                     inventoryService.searchProductsByName(term).forEach(System.out::println);
                 }
                 case 3 -> addNewItem();
+                // Handles removing products by ID from inventory
                 case 4 -> {
                     int id = InputUtilities.readInt("Enter Product ID to remove: ");
                     inventoryService.removeProductById(id);
