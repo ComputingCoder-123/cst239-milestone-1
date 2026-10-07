@@ -1,5 +1,6 @@
 package edu.gcu.cst239.kabwe.elijah.lab1.milestone_app;
 
+import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.CustomerActions;
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.InventoryManager;
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.InventoryService;
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.StoreManagerActions;
@@ -10,7 +11,7 @@ public class StartupRunner {
     public static void main(String[] args) {
         InventoryService inventoryService = new InventoryManager();
         StoreManagerActions managerActions = new StoreManagerActions(inventoryService);
-
+        CustomerActions customerActions = new CustomerActions();
         System.out.println("Welcome to the Storefront Application!");
         boolean running = true;
         while (running) {
@@ -22,7 +23,7 @@ public class StartupRunner {
             int choice = InputUtilities.readInt("Select role: ");
 
             switch (choice) {
-                case 1 -> System.out.println("Customer actions coming soon!");
+                case 1 -> customerActions.displayMenu();
                 case 2 -> managerActions.displayMenu();
                 case 3 -> {
                     running = false;
