@@ -11,7 +11,8 @@ public class CustomerActions {
             System.out.println("1. View Shopping Cart");
             System.out.println("2. Add Item to Cart");
             System.out.println("3. Remove Item from Cart");
-            System.out.println("4. Back to Main Menu");
+            System.out.println("4. Checkout");
+            System.out.println("5. Back to Main Menu");
 
             int choice = InputUtilities.readInt("Select option: ");
 
@@ -19,7 +20,8 @@ public class CustomerActions {
                 case 1 -> viewCart();
                 case 2 -> addToCart();
                 case 3 -> removeFromCart();
-                case 4 -> running = false;
+                case 4 -> checkout();
+                case 5 -> running = false;
                 default -> System.out.println("Invalid option.");
             }
         }
@@ -36,9 +38,13 @@ public class CustomerActions {
         System.out.println("Added " + qty + " of Product ID " + id + " to your cart.");
     }
 
-    // Handles removing items from the customer shopping cart
     private void removeFromCart() {
         int id = InputUtilities.readInt("Enter Product ID to remove from cart: ");
         System.out.println("Removed Product ID " + id + " from your cart.");
+    }
+
+    // Handles customer checkout process
+    private void checkout() {
+        System.out.println("Checkout successful! Thank you for your purchase.");
     }
 }
