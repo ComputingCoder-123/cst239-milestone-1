@@ -56,6 +56,7 @@ public class StoreManagerActions {
         }
     }
 
+    // Handles adding new products to inventory
     private void addNewItem() {
         int id = InputUtilities.readInt("Enter ID: ");
         String name = InputUtilities.readString("Enter Name: ");
