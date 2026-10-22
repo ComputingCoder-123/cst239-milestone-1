@@ -15,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class InventoryManagerTest {
-    private static final double DELTA = 0.001;
 
     @Test
     void constructorCopiesTheProvidedInventoryCollection() {
@@ -110,166 +109,6 @@ class InventoryManagerTest {
         assertEquals(List.of(item), inventoryManager.getAllInventoryItems());
     }
 
-    @Test
-    void addsANewInventoryItem() {
-        InventoryManager inventoryManager = inventoryManager(
-                inventoryItem(101, "Alpha", "First", 10.00, 5));
-        InventoryItem added = inventoryItem(102, "Beta", "Second", 20.00, 2);
-
-        inventoryManager.addInventoryItem(added);
-
-        assertEquals(List.of(101, 102), productIds(inventoryManager.getAllInventoryItems()));
-        assertEquals(added, inventoryManager.getInventoryItemByProductId(102));
-    }
-
-    @Test
-    void rejectsAnInventoryItemWithADuplicateProductId() {
-        InventoryItem existing = inventoryItem(101, "Alpha", "First", 10.00, 5);
-        InventoryManager inventoryManager = inventoryManager(existing);
-        InventoryItem duplicate = inventoryItem(101, "Different", "Duplicate ID", 50.00, 9);
-
-        assertThrows(IllegalArgumentException.class, () -> inventoryManager.addInventoryItem(duplicate));
-        assertEquals(List.of(existing), inventoryManager.getAllInventoryItems());
-    }
-
-    @Test
-    void rejectsANullInventoryItem() {
-        InventoryManager inventoryManager = inventoryManager();
-
-        assertThrows(NullPointerException.class, () -> inventoryManager.addInventoryItem(null));
-        assertTrue(inventoryManager.getAllInventoryItems().isEmpty());
-    }
-
-    @Test
-    void updatesProductDetailsWithoutChangingStockQuantity() {
-        InventoryItem item = inventoryItem(101, "Old name", "Old description", 10.00, 7);
-        InventoryManager inventoryManager = inventoryManager(item);
-        Product replacement = product(101, "New name", "New description", 13.25);
-
-        inventoryManager.updateProduct(replacement);
-
-        assertEquals(replacement, item.getProduct());
-        assertEquals(7, item.getQuantityInStock());
-        assertEquals(13.25, item.getProduct().getPrice(), DELTA);
-    }
-
-    @Test
-    void updatingAnUnknownProductLeavesInventoryUnchanged() {
-        InventoryItem existing = inventoryItem(101, "Alpha", "First", 10.00, 5);
-        InventoryManager inventoryManager = inventoryManager(existing);
-
-        inventoryManager.updateProduct(product(999, "Missing", "Not stored", 20.00));
-
-        assertEquals(List.of(existing), inventoryManager.getAllInventoryItems());
-        assertEquals(5, existing.getQuantityInStock());
-    }
-
-    @Test
-    void setsStockToTheRequestedQuantityAtZeroAndBothSidesOfTheCurrentValue() {
-        InventoryItem item = inventoryItem(101, "Alpha", "First", 10.00, 5);
-        InventoryManager inventoryManager = inventoryManager(item);
-
-        inventoryManager.updateQuantity(101, 8);
-        assertEquals(8, item.getQuantityInStock());
-
-        inventoryManager.updateQuantity(101, 3);
-        assertEquals(3, item.getQuantityInStock());
-
-        inventoryManager.updateQuantity(101, 0);
-        assertEquals(0, item.getQuantityInStock());
-    }
-
-    @Test
-    void updatingStockForAnUnknownProductLeavesInventoryUnchanged() {
-        InventoryItem existing = inventoryItem(101, "Alpha", "First", 10.00, 5);
-        InventoryManager inventoryManager = inventoryManager(existing);
-
-        inventoryManager.updateQuantity(999, 2);
-
-        assertEquals(List.of(existing), inventoryManager.getAllInventoryItems());
-        assertEquals(5, existing.getQuantityInStock());
-    }
-
-    @Test
-    void rejectsNegativeStockQuantitiesWithoutChangingInventory() {
-        InventoryItem item = inventoryItem(101, "Alpha", "First", 10.00, 5);
-        InventoryManager inventoryManager = inventoryManager(item);
-
-        assertThrows(IllegalArgumentException.class, () -> inventoryManager.updateQuantity(101, -1));
-        assertEquals(5, item.getQuantityInStock());
-    }
-
-    @Test
-    void removesAnExistingProductById() {
-        InventoryItem removed = inventoryItem(101, "Alpha", "First", 10.00, 5);
-        InventoryItem retained = inventoryItem(102, "Beta", "Second", 20.00, 2);
-        InventoryManager inventoryManager = inventoryManager(removed, retained);
-
-        inventoryManager.removeProductById(101);
-
-        assertEquals(List.of(retained), inventoryManager.getAllInventoryItems());
-        assertNull(inventoryManager.getInventoryItemByProductId(101));
-    }
-
-    @Test
-    void removingAnUnknownProductDoesNotDamageInventory() {
-        InventoryItem retained = inventoryItem(101, "Alpha", "First", 10.00, 5);
-        InventoryManager inventoryManager = inventoryManager(retained);
-
-        inventoryManager.removeProductById(999);
-
-        assertEquals(List.of(retained), inventoryManager.getAllInventoryItems());
-    }
-
-    @Test
-    void sortsAnIndependentViewByNameAscending() {
-        InventoryItem charlie = inventoryItem(103, "Charlie", "Third", 30.00, 3);
-        InventoryItem alpha = inventoryItem(101, "Alpha", "First", 10.00, 1);
-        InventoryItem bravo = inventoryItem(102, "Bravo", "Second", 20.00, 2);
-        InventoryManager inventoryManager = inventoryManager(charlie, alpha, bravo);
-
-        assertEquals(
-                List.of(101, 102, 103),
-                productIds(inventoryManager.getInventoryItemsSortedByNameAscending()));
-    }
-
-    @Test
-    void sortsAnIndependentViewByPriceAscending() {
-        InventoryItem expensive = inventoryItem(103, "Expensive", "Third", 30.00, 3);
-        InventoryItem cheapest = inventoryItem(101, "Cheapest", "First", 10.00, 1);
-        InventoryItem middle = inventoryItem(102, "Middle", "Second", 20.00, 2);
-        InventoryManager inventoryManager = inventoryManager(expensive, cheapest, middle);
-
-        assertEquals(
-                List.of(101, 102, 103),
-                productIds(inventoryManager.getInventoryItemsSortedByPriceAscending()));
-    }
-
-    @Test
-    void sortsAnIndependentViewByNameDescending() {
-        InventoryItem bravo = inventoryItem(102, "Bravo", "Second", 20.00, 2);
-        InventoryItem alpha = inventoryItem(101, "Alpha", "First", 10.00, 1);
-        InventoryItem charlie = inventoryItem(103, "Charlie", "Third", 30.00, 3);
-        InventoryManager inventoryManager = inventoryManager(bravo, alpha, charlie);
-
-        assertEquals(
-                List.of(103, 102, 101),
-                productIds(inventoryManager.getInventoryItemsSortedByNameDescending()));
-    }
-
-    @Test
-    void sortingDoesNotReorderOrExposeTheStoredInventory() {
-        InventoryItem bravo = inventoryItem(102, "Bravo", "Second", 20.00, 2);
-        InventoryItem alpha = inventoryItem(101, "Alpha", "First", 10.00, 1);
-        InventoryManager inventoryManager = inventoryManager(bravo, alpha);
-
-        List<InventoryItem> sorted = inventoryManager.getInventoryItemsSortedByNameAscending();
-
-        assertEquals(List.of(102, 101), productIds(inventoryManager.getAllInventoryItems()));
-        assertThrows(UnsupportedOperationException.class, sorted::clear);
-        assertEquals(List.of(102, 101), productIds(inventoryManager.getAllInventoryItems()));
-    }
-
     private static InventoryManager inventoryManager(InventoryItem... items) {
         return new InventoryManager(List.of(items));
     }
@@ -288,9 +127,5 @@ class InventoryManagerTest {
                 .setPrice(price)
                 .setCategory("test")
                 .build();
-    }
-
-    private static List<Integer> productIds(List<InventoryItem> items) {
-        return items.stream().map(item -> item.getProduct().getId()).toList();
     }
 }

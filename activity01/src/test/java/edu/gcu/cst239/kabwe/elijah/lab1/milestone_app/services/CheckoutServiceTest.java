@@ -2,9 +2,6 @@ package edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services;
 
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models.InventoryItem;
 import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models.Product;
-import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.CartService;
-import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.CheckoutService;
-import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services.InventoryManager;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
