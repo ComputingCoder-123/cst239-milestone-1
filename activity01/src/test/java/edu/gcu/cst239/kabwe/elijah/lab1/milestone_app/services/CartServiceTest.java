@@ -1,15 +1,16 @@
 package edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services;
 
-import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models.Product;
-import org.junit.jupiter.api.Test;
-
 import java.time.LocalDate;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
+
+import edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models.Product;
 
 class CartServiceTest {
     private static final double DELTA = 0.001;
@@ -64,8 +65,8 @@ class CartServiceTest {
         Product product = product(101, "Notebook", 2.75);
         CartService cartService = new CartService();
 
-        assertThrows(IllegalArgumentException.class, () -> cartService.addProduct(product, 0));
-        assertThrows(IllegalArgumentException.class, () -> cartService.addProduct(product, -1));
+        assertNotNull(assertThrows(IllegalArgumentException.class, () -> cartService.addProduct(product, 0)));
+        assertNotNull(assertThrows(IllegalArgumentException.class, () -> cartService.addProduct(product, -1)));
         assertTrue(cartService.isEmpty());
     }
 
@@ -76,9 +77,9 @@ class CartServiceTest {
         CartService cartService = new CartService();
         cartService.addProduct(product, 4);
 
-        assertThrows(IllegalArgumentException.class, () -> cartService.setQuantity(product, 0));
-        assertThrows(IllegalArgumentException.class, () -> cartService.setQuantity(product, -1));
-        assertThrows(IllegalArgumentException.class, () -> cartService.setQuantity(missingProduct, 2));
+        assertNotNull(assertThrows(IllegalArgumentException.class, () -> cartService.setQuantity(product, 0)));
+        assertNotNull(assertThrows(IllegalArgumentException.class, () -> cartService.setQuantity(product, -1)));
+        assertNotNull(assertThrows(IllegalArgumentException.class, () -> cartService.setQuantity(missingProduct, 2)));
         assertEquals(Map.of(product, 4), cartService.getItems());
     }
 
@@ -101,7 +102,7 @@ class CartServiceTest {
         cartService.addProduct(product, 4);
         Map<Product, Integer> snapshot = cartService.getItems();
 
-        assertThrows(UnsupportedOperationException.class, snapshot::clear);
+        assertNotNull(assertThrows(UnsupportedOperationException.class, snapshot::clear));
         assertEquals(Map.of(product, 4), cartService.getItems());
     }
 

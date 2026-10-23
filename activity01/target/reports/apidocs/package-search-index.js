@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.gcu.cst239.kabwe.elijah.lab1"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.gcu.cst239.kabwe.elijah.lab1"},{"l":"edu.gcu.cst239.kabwe.elijah.lab1.milestone_app"},{"l":"edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models"},{"l":"edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services"},{"l":"edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.util"}];updateSearchResults();

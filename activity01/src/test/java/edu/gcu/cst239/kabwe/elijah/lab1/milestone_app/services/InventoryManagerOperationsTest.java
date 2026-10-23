@@ -33,7 +33,10 @@ class InventoryManagerOperationsTest {
         InventoryManager inventoryManager = inventoryManager(existing);
         InventoryItem duplicate = inventoryItem(101, "Different", "Duplicate ID", 50.00, 9);
 
-        assertThrows(IllegalArgumentException.class, () -> inventoryManager.addInventoryItem(duplicate));
+        IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> inventoryManager.addInventoryItem(duplicate));
+        assertTrue(exception instanceof IllegalArgumentException);
         assertEquals(List.of(existing), inventoryManager.getAllInventoryItems());
     }
 
@@ -41,7 +44,10 @@ class InventoryManagerOperationsTest {
     void rejectsANullInventoryItem() {
         InventoryManager inventoryManager = inventoryManager();
 
-        assertThrows(NullPointerException.class, () -> inventoryManager.addInventoryItem(null));
+        NullPointerException exception = assertThrows(
+                NullPointerException.class,
+                () -> inventoryManager.addInventoryItem(null));
+        assertTrue(exception instanceof NullPointerException);
         assertTrue(inventoryManager.getAllInventoryItems().isEmpty());
     }
 
@@ -100,7 +106,10 @@ class InventoryManagerOperationsTest {
         InventoryItem item = inventoryItem(101, "Alpha", "First", 10.00, 5);
         InventoryManager inventoryManager = inventoryManager(item);
 
-        assertThrows(IllegalArgumentException.class, () -> inventoryManager.updateQuantity(101, -1));
+        IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> inventoryManager.updateQuantity(101, -1));
+        assertTrue(exception instanceof IllegalArgumentException);
         assertEquals(5, item.getQuantityInStock());
     }
 
@@ -171,7 +180,10 @@ class InventoryManagerOperationsTest {
         List<InventoryItem> sorted = inventoryManager.getInventoryItemsSortedByNameAscending();
 
         assertEquals(List.of(102, 101), productIds(inventoryManager.getAllInventoryItems()));
-        assertThrows(UnsupportedOperationException.class, sorted::clear);
+        UnsupportedOperationException exception = assertThrows(
+                UnsupportedOperationException.class,
+                sorted::clear);
+        assertTrue(exception instanceof UnsupportedOperationException);
         assertEquals(List.of(102, 101), productIds(inventoryManager.getAllInventoryItems()));
     }
 

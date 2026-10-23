@@ -25,23 +25,28 @@
 -windowtitle
 'activity01 0.0.1-SNAPSHOT API'
 edu.gcu.cst239.kabwe.elijah.lab1
+edu.gcu.cst239.kabwe.elijah.lab1.milestone_app
+edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.models
+edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.services
+edu.gcu.cst239.kabwe.elijah.lab1.milestone_app.util
 C:\Users\ADMIN\Downloads\cst239-lab1\activity01\src\main\java = 1789950185253
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\allclasses-index.html = 1789965717099
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\allpackages-index.html = 1789965717107
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\copy.svg = 1789965717185
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\element-list = 1789965716892
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\help-doc.html = 1789965717177
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\index-all.html = 1789965717162
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\index.html = 1789965717170
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\link.svg = 1789965717187
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\member-search-index.js = 1789965717119
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\module-search-index.js = 1789965717110
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\overview-tree.html = 1789965717075
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\package-search-index.js = 1789965717113
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\script.js = 1789965717183
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search-page.js = 1789965717196
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search.html = 1789965717165
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search.js = 1789965717192
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\stylesheet.css = 1789965717181
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\tag-search-index.js = 1789965717122
-C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\type-search-index.js = 1789965717116
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\allclasses-index.html = 1792713709862
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\allpackages-index.html = 1792713709869
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\copy.svg = 1792713709965
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\element-list = 1792713709476
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\help-doc.html = 1792713709955
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\index-all.html = 1792713709941
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\index.html = 1792713709811
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\link.svg = 1792713709968
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\member-search-index.js = 1792713709883
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\module-search-index.js = 1792713709873
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\overview-summary.html = 1792713709949
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\overview-tree.html = 1792713709802
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\package-search-index.js = 1792713709877
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\script.js = 1792713709963
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search-page.js = 1792713709976
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search.html = 1792713709946
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\search.js = 1792713709973
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\stylesheet.css = 1792713709959
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\tag-search-index.js = 1792713709886
+C:\Users\ADMIN\Downloads\cst239-lab1\activity01\target\reports\apidocs\type-search-index.js = 1792713709879

@@ -95,8 +95,15 @@ class InventoryManagerTest {
         InventoryManager inventoryManager = inventoryManager(
                 inventoryItem(101, "Keyboard", "Input device", 25.00, 8));
 
-        assertThrows(NullPointerException.class, () -> inventoryManager.searchProductsByName(null));
-        assertThrows(NullPointerException.class, () -> inventoryManager.searchProductsByDescription(null));
+        NullPointerException nameException = assertThrows(
+                NullPointerException.class,
+                () -> inventoryManager.searchProductsByName(null));
+        assertTrue(nameException instanceof NullPointerException);
+
+        NullPointerException descriptionException = assertThrows(
+                NullPointerException.class,
+                () -> inventoryManager.searchProductsByDescription(null));
+        assertTrue(descriptionException instanceof NullPointerException);
     }
 
     @Test
@@ -105,7 +112,11 @@ class InventoryManagerTest {
         InventoryManager inventoryManager = inventoryManager(item);
         List<InventoryItem> snapshot = inventoryManager.getAllInventoryItems();
 
-        assertThrows(UnsupportedOperationException.class, snapshot::clear);
+        UnsupportedOperationException exception = assertThrows(
+                UnsupportedOperationException.class,
+                () -> snapshot.clear());
+
+        assertTrue(exception instanceof UnsupportedOperationException);
         assertEquals(List.of(item), inventoryManager.getAllInventoryItems());
     }
 
