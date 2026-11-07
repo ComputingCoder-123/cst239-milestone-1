@@ -1,0 +1,701 @@
+[{
+  "id": 1,
+  "name": "Almond Flour Cookies",
+  "description": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
+  "dateOfManufacture": "11/30/2025",
+  "price": 174.87,
+  "category": "Apparel"
+}, {
+  "id": 2,
+  "name": "Kale & Quinoa Salad Mix",
+  "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
+  "dateOfManufacture": "2/19/2026",
+  "price": 402.84,
+  "category": "Home"
+}, {
+  "id": 3,
+  "name": "Roasted Red Pepper Sauce",
+  "description": "Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
+  "dateOfManufacture": "10/22/2026",
+  "price": 262.0,
+  "category": "Electronics"
+}, {
+  "id": 4,
+  "name": "Infrared Space Heater",
+  "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "dateOfManufacture": "4/26/2026",
+  "price": 47.41,
+  "category": "Home"
+}, {
+  "id": 5,
+  "name": "Wireless Charger Stand",
+  "description": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+  "dateOfManufacture": "8/23/2026",
+  "price": 442.41,
+  "category": "Electronics"
+}, {
+  "id": 6,
+  "name": "Almond Flour",
+  "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
+  "dateOfManufacture": "4/8/2026",
+  "price": 232.47,
+  "category": "Apparel"
+}, {
+  "id": 7,
+  "name": "Mashed Sweet Potatoes",
+  "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+  "dateOfManufacture": "10/5/2026",
+  "price": 143.11,
+  "category": "Home"
+}, {
+  "id": 8,
+  "name": "Wooden Puzzle Game",
+  "description": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
+  "dateOfManufacture": "4/12/2026",
+  "price": 267.72,
+  "category": "Home"
+}, {
+  "id": 9,
+  "name": "Home Karaoke System",
+  "description": "Donec semper sapien a libero. Nam dui.",
+  "dateOfManufacture": "9/18/2026",
+  "price": 313.78,
+  "category": "Electronics"
+}, {
+  "id": 10,
+  "name": "Insulated Sport Tumbler",
+  "description": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+  "dateOfManufacture": "2/16/2026",
+  "price": 276.49,
+  "category": "Home"
+}, {
+  "id": 11,
+  "name": "Portable Hammock with Stand",
+  "description": "Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
+  "dateOfManufacture": "2/6/2026",
+  "price": 242.78,
+  "category": "Electronics"
+}, {
+  "id": 12,
+  "name": "Digital Bullet Journal",
+  "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+  "dateOfManufacture": "1/29/2026",
+  "price": 168.25,
+  "category": "Electronics"
+}, {
+  "id": 13,
+  "name": "Non-Stick Crepe Pan",
+  "description": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+  "dateOfManufacture": "2/28/2026",
+  "price": 368.42,
+  "category": "Home"
+}, {
+  "id": 14,
+  "name": "Foldable Yoga Mat",
+  "description": "Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
+  "dateOfManufacture": "3/13/2026",
+  "price": 391.11,
+  "category": "Electronics"
+}, {
+  "id": 15,
+  "name": "Electric Ice Cream Maker",
+  "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+  "dateOfManufacture": "1/6/2026",
+  "price": 417.04,
+  "category": "Apparel"
+}, {
+  "id": 16,
+  "name": "Spicy Avocado Salsa",
+  "description": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+  "dateOfManufacture": "10/28/2026",
+  "price": 489.6,
+  "category": "Home"
+}, {
+  "id": 17,
+  "name": "Digital Wireless Meat Thermometer",
+  "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+  "dateOfManufacture": "3/28/2026",
+  "price": 256.43,
+  "category": "Apparel"
+}, {
+  "id": 18,
+  "name": "Set of Silicone Baking Molds",
+  "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+  "dateOfManufacture": "5/5/2026",
+  "price": 264.1,
+  "category": "Electronics"
+}, {
+  "id": 19,
+  "name": "LED Under Cabinet Lighting",
+  "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
+  "dateOfManufacture": "7/15/2026",
+  "price": 225.38,
+  "category": "Electronics"
+}, {
+  "id": 20,
+  "name": "Wireless Gaming Mouse",
+  "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+  "dateOfManufacture": "5/11/2026",
+  "price": 363.22,
+  "category": "Apparel"
+}, {
+  "id": 21,
+  "name": "Over-the-Door Hooks",
+  "description": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+  "dateOfManufacture": "11/19/2025",
+  "price": 273.49,
+  "category": "Electronics"
+}, {
+  "id": 22,
+  "name": "Rice Noodles",
+  "description": "Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
+  "dateOfManufacture": "8/27/2026",
+  "price": 85.2,
+  "category": "Apparel"
+}, {
+  "id": 23,
+  "name": "Cream Cheese",
+  "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
+  "dateOfManufacture": "11/17/2025",
+  "price": 487.58,
+  "category": "Home"
+}, {
+  "id": 24,
+  "name": "Brown Sugar",
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
+  "dateOfManufacture": "12/9/2025",
+  "price": 300.84,
+  "category": "Electronics"
+}, {
+  "id": 25,
+  "name": "Outdoor Camping Hammock",
+  "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+  "dateOfManufacture": "7/4/2026",
+  "price": 106.04,
+  "category": "Electronics"
+}, {
+  "id": 26,
+  "name": "Organic Vanilla Bean Ice Cream",
+  "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+  "dateOfManufacture": "2/23/2026",
+  "price": 311.68,
+  "category": "Home"
+}, {
+  "id": 27,
+  "name": "Ice Cream Scoop",
+  "description": "Morbi a ipsum.",
+  "dateOfManufacture": "12/2/2025",
+  "price": 371.15,
+  "category": "Electronics"
+}, {
+  "id": 28,
+  "name": "Almond Flour",
+  "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
+  "dateOfManufacture": "10/10/2026",
+  "price": 183.19,
+  "category": "Electronics"
+}, {
+  "id": 29,
+  "name": "Cucumber Lime Sparkling Water",
+  "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "dateOfManufacture": "4/22/2026",
+  "price": 12.93,
+  "category": "Home"
+}, {
+  "id": 30,
+  "name": "Mango Chunks",
+  "description": "Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
+  "dateOfManufacture": "5/2/2026",
+  "price": 140.87,
+  "category": "Apparel"
+}, {
+  "id": 31,
+  "name": "Chipotle Lime Salsa",
+  "description": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
+  "dateOfManufacture": "2/1/2026",
+  "price": 354.31,
+  "category": "Apparel"
+}, {
+  "id": 32,
+  "name": "Dog Walking Waist Pack",
+  "description": "In eleifend quam a odio. In hac habitasse platea dictumst.",
+  "dateOfManufacture": "12/27/2025",
+  "price": 352.36,
+  "category": "Electronics"
+}, {
+  "id": 33,
+  "name": "Travel Sewing Kit",
+  "description": "Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+  "dateOfManufacture": "2/8/2026",
+  "price": 29.72,
+  "category": "Electronics"
+}, {
+  "id": 34,
+  "name": "Leather Biker Jacket",
+  "description": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+  "dateOfManufacture": "12/21/2025",
+  "price": 351.68,
+  "category": "Apparel"
+}, {
+  "id": 35,
+  "name": "Adjustable Kitchen Broom Stand",
+  "description": "Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
+  "dateOfManufacture": "7/3/2026",
+  "price": 173.27,
+  "category": "Home"
+}, {
+  "id": 36,
+  "name": "Travel Jewelry Organizer",
+  "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
+  "dateOfManufacture": "5/1/2026",
+  "price": 376.83,
+  "category": "Apparel"
+}, {
+  "id": 37,
+  "name": "Foot Spa Bath Massager",
+  "description": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
+  "dateOfManufacture": "2/14/2026",
+  "price": 456.33,
+  "category": "Apparel"
+}, {
+  "id": 38,
+  "name": "Jasmine Rice",
+  "description": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+  "dateOfManufacture": "8/2/2026",
+  "price": 309.15,
+  "category": "Home"
+}, {
+  "id": 39,
+  "name": "Compact Refrigerator",
+  "description": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+  "dateOfManufacture": "9/22/2026",
+  "price": 116.27,
+  "category": "Electronics"
+}, {
+  "id": 40,
+  "name": "Chocolate Chip Cookie Mix",
+  "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "dateOfManufacture": "12/16/2025",
+  "price": 427.17,
+  "category": "Apparel"
+}, {
+  "id": 41,
+  "name": "Cinnamon Sugar Popcorn",
+  "description": "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
+  "dateOfManufacture": "8/14/2026",
+  "price": 407.23,
+  "category": "Electronics"
+}, {
+  "id": 42,
+  "name": "Watercolor Brush Pens",
+  "description": "Nam nulla.",
+  "dateOfManufacture": "1/13/2026",
+  "price": 499.03,
+  "category": "Home"
+}, {
+  "id": 43,
+  "name": "Frozen Burritos",
+  "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+  "dateOfManufacture": "6/9/2026",
+  "price": 345.55,
+  "category": "Home"
+}, {
+  "id": 44,
+  "name": "Inflatable Paddle Board",
+  "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
+  "dateOfManufacture": "9/3/2026",
+  "price": 15.02,
+  "category": "Home"
+}, {
+  "id": 45,
+  "name": "Coconut Almond Granola",
+  "description": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+  "dateOfManufacture": "6/13/2026",
+  "price": 38.38,
+  "category": "Apparel"
+}, {
+  "id": 46,
+  "name": "Electric Hot Pot",
+  "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+  "dateOfManufacture": "4/2/2026",
+  "price": 219.45,
+  "category": "Apparel"
+}, {
+  "id": 47,
+  "name": "Portable Speakers",
+  "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
+  "dateOfManufacture": "5/14/2026",
+  "price": 95.95,
+  "category": "Electronics"
+}, {
+  "id": 48,
+  "name": "Honey BBQ Riblets",
+  "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
+  "dateOfManufacture": "5/29/2026",
+  "price": 73.43,
+  "category": "Apparel"
+}, {
+  "id": 49,
+  "name": "Customizable Photo Calendar",
+  "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
+  "dateOfManufacture": "4/4/2026",
+  "price": 130.75,
+  "category": "Electronics"
+}, {
+  "id": 50,
+  "name": "Kombucha Drink",
+  "description": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
+  "dateOfManufacture": "2/23/2026",
+  "price": 235.64,
+  "category": "Electronics"
+}, {
+  "id": 51,
+  "name": "Black Bean & Corn Salad",
+  "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
+  "dateOfManufacture": "7/7/2026",
+  "price": 47.7,
+  "category": "Electronics"
+}, {
+  "id": 52,
+  "name": "Elegant Maxi Skirt",
+  "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+  "dateOfManufacture": "10/3/2026",
+  "price": 245.34,
+  "category": "Electronics"
+}, {
+  "id": 53,
+  "name": "Almond Butter Cookies",
+  "description": "Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
+  "dateOfManufacture": "7/11/2026",
+  "price": 175.67,
+  "category": "Home"
+}, {
+  "id": 54,
+  "name": "Sesame Noodles",
+  "description": "Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+  "dateOfManufacture": "3/15/2026",
+  "price": 130.37,
+  "category": "Apparel"
+}, {
+  "id": 55,
+  "name": "Vanilla Bean Greek Yogurt",
+  "description": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
+  "dateOfManufacture": "10/16/2026",
+  "price": 47.84,
+  "category": "Electronics"
+}, {
+  "id": 56,
+  "name": "Magnetic Phone Car Mount",
+  "description": "Sed vel enim sit amet nunc viverra dapibus.",
+  "dateOfManufacture": "8/11/2026",
+  "price": 497.86,
+  "category": "Home"
+}, {
+  "id": 57,
+  "name": "Organic Almonds",
+  "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
+  "dateOfManufacture": "10/17/2026",
+  "price": 147.0,
+  "category": "Electronics"
+}, {
+  "id": 58,
+  "name": "Pet Grooming Brush",
+  "description": "Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+  "dateOfManufacture": "6/11/2026",
+  "price": 178.59,
+  "category": "Apparel"
+}, {
+  "id": 59,
+  "name": "Noise Cancelling Ear Muffs",
+  "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "dateOfManufacture": "3/19/2026",
+  "price": 408.47,
+  "category": "Electronics"
+}, {
+  "id": 60,
+  "name": "Honeycrisp Apple Chips",
+  "description": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
+  "dateOfManufacture": "5/20/2026",
+  "price": 237.38,
+  "category": "Electronics"
+}, {
+  "id": 61,
+  "name": "Foot Massager Machine",
+  "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
+  "dateOfManufacture": "7/12/2026",
+  "price": 167.13,
+  "category": "Apparel"
+}, {
+  "id": 62,
+  "name": "Interactive Robot Toy",
+  "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+  "dateOfManufacture": "7/6/2026",
+  "price": 324.98,
+  "category": "Apparel"
+}, {
+  "id": 63,
+  "name": "Portable Camping Shower",
+  "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
+  "dateOfManufacture": "9/12/2026",
+  "price": 451.11,
+  "category": "Electronics"
+}, {
+  "id": 64,
+  "name": "Almond Quinoa Salad",
+  "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+  "dateOfManufacture": "2/23/2026",
+  "price": 78.92,
+  "category": "Electronics"
+}, {
+  "id": 65,
+  "name": "Electric Griddle with Lid",
+  "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+  "dateOfManufacture": "11/20/2025",
+  "price": 259.59,
+  "category": "Electronics"
+}, {
+  "id": 66,
+  "name": "Portable Camping Stove",
+  "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
+  "dateOfManufacture": "12/27/2025",
+  "price": 242.89,
+  "category": "Home"
+}, {
+  "id": 67,
+  "name": "Hummus",
+  "description": "Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
+  "dateOfManufacture": "5/24/2026",
+  "price": 206.44,
+  "category": "Apparel"
+}, {
+  "id": 68,
+  "name": "Jump Rope with Counter",
+  "description": "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+  "dateOfManufacture": "5/6/2026",
+  "price": 253.42,
+  "category": "Home"
+}, {
+  "id": 69,
+  "name": "Cotton Tote Bag Set",
+  "description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
+  "dateOfManufacture": "12/24/2025",
+  "price": 155.31,
+  "category": "Electronics"
+}, {
+  "id": 70,
+  "name": "Wireless Gaming Mouse",
+  "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
+  "dateOfManufacture": "5/8/2026",
+  "price": 115.11,
+  "category": "Home"
+}, {
+  "id": 71,
+  "name": "Italian Meatballs",
+  "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
+  "dateOfManufacture": "6/10/2026",
+  "price": 22.06,
+  "category": "Electronics"
+}, {
+  "id": 72,
+  "name": "Chocolate Covered Pretzels",
+  "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "dateOfManufacture": "11/14/2025",
+  "price": 223.53,
+  "category": "Electronics"
+}, {
+  "id": 73,
+  "name": "Bluetooth Headphones",
+  "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
+  "dateOfManufacture": "1/7/2026",
+  "price": 328.59,
+  "category": "Apparel"
+}, {
+  "id": 74,
+  "name": "Mediterranean Chickpea Bowl",
+  "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
+  "dateOfManufacture": "7/5/2026",
+  "price": 403.61,
+  "category": "Home"
+}, {
+  "id": 75,
+  "name": "Children's Educational Workbook",
+  "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
+  "dateOfManufacture": "12/25/2025",
+  "price": 108.15,
+  "category": "Apparel"
+}, {
+  "id": 76,
+  "name": "Basil-infused Olive Oil",
+  "description": "Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+  "dateOfManufacture": "6/24/2026",
+  "price": 479.15,
+  "category": "Apparel"
+}, {
+  "id": 77,
+  "name": "Reversible Comforter Set",
+  "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
+  "dateOfManufacture": "6/24/2026",
+  "price": 253.41,
+  "category": "Apparel"
+}, {
+  "id": 78,
+  "name": "Pineapple Rings",
+  "description": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
+  "dateOfManufacture": "4/17/2026",
+  "price": 473.93,
+  "category": "Electronics"
+}, {
+  "id": 79,
+  "name": "Tea Infuser",
+  "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
+  "dateOfManufacture": "1/11/2026",
+  "price": 145.35,
+  "category": "Electronics"
+}, {
+  "id": 80,
+  "name": "Portable Dog Water Bottle",
+  "description": "Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
+  "dateOfManufacture": "8/15/2026",
+  "price": 312.69,
+  "category": "Apparel"
+}, {
+  "id": 81,
+  "name": "Spicy Roasted Nuts",
+  "description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
+  "dateOfManufacture": "9/25/2026",
+  "price": 404.92,
+  "category": "Apparel"
+}, {
+  "id": 82,
+  "name": "Electric Wine Opener",
+  "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
+  "dateOfManufacture": "8/9/2026",
+  "price": 13.29,
+  "category": "Home"
+}, {
+  "id": 83,
+  "name": "Sports Windbreaker",
+  "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
+  "dateOfManufacture": "8/14/2026",
+  "price": 112.33,
+  "category": "Home"
+}, {
+  "id": 84,
+  "name": "Sweet Corn",
+  "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+  "dateOfManufacture": "3/28/2026",
+  "price": 342.58,
+  "category": "Apparel"
+}, {
+  "id": 85,
+  "name": "Adjustable Kitchen Broom Stand",
+  "description": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+  "dateOfManufacture": "8/17/2026",
+  "price": 292.23,
+  "category": "Home"
+}, {
+  "id": 86,
+  "name": "Thai Basil Fried Rice",
+  "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
+  "dateOfManufacture": "5/16/2026",
+  "price": 471.7,
+  "category": "Home"
+}, {
+  "id": 87,
+  "name": "High-Waisted Skirt",
+  "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "dateOfManufacture": "1/23/2026",
+  "price": 141.22,
+  "category": "Home"
+}, {
+  "id": 88,
+  "name": "Magnetic Screen Door",
+  "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
+  "dateOfManufacture": "1/1/2026",
+  "price": 344.2,
+  "category": "Apparel"
+}, {
+  "id": 89,
+  "name": "Rice Pilaf Mix",
+  "description": "Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+  "dateOfManufacture": "9/12/2026",
+  "price": 387.85,
+  "category": "Apparel"
+}, {
+  "id": 90,
+  "name": "Maple Bacon Jerky",
+  "description": "Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
+  "dateOfManufacture": "9/29/2026",
+  "price": 69.09,
+  "category": "Home"
+}, {
+  "id": 91,
+  "name": "Foot Massager",
+  "description": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+  "dateOfManufacture": "11/5/2026",
+  "price": 28.17,
+  "category": "Apparel"
+}, {
+  "id": 92,
+  "name": "Classic BBQ Sauce",
+  "description": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
+  "dateOfManufacture": "6/20/2026",
+  "price": 493.96,
+  "category": "Apparel"
+}, {
+  "id": 93,
+  "name": "Smartphone Gimbal Stabilizer",
+  "description": "Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
+  "dateOfManufacture": "7/16/2026",
+  "price": 15.02,
+  "category": "Electronics"
+}, {
+  "id": 94,
+  "name": "Ergonomic Mouse Pad with Wrist Support",
+  "description": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+  "dateOfManufacture": "12/25/2025",
+  "price": 129.12,
+  "category": "Home"
+}, {
+  "id": 95,
+  "name": "Wine Decanter",
+  "description": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+  "dateOfManufacture": "12/5/2025",
+  "price": 171.1,
+  "category": "Apparel"
+}, {
+  "id": 96,
+  "name": "Smart Thermostat with Wi-Fi",
+  "description": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+  "dateOfManufacture": "8/27/2026",
+  "price": 396.71,
+  "category": "Home"
+}, {
+  "id": 97,
+  "name": "Pineapple Coconut Rice Mix",
+  "description": "Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
+  "dateOfManufacture": "8/26/2026",
+  "price": 67.64,
+  "category": "Home"
+}, {
+  "id": 98,
+  "name": "Wireless Range Extender",
+  "description": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+  "dateOfManufacture": "11/26/2025",
+  "price": 482.87,
+  "category": "Apparel"
+}, {
+  "id": 99,
+  "name": "Herbed Couscous",
+  "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
+  "dateOfManufacture": "11/25/2025",
+  "price": 482.94,
+  "category": "Home"
+}, {
+  "id": 100,
+  "name": "Cinnamon Ice Cream",
+  "description": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "dateOfManufacture": "3/27/2026",
+  "price": 430.2,
+  "category": "Home"
+}]
