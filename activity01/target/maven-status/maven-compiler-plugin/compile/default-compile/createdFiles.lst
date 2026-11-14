@@ -2,10 +2,12 @@ edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\models\InventoryItem.class
 edu\gcu\cst239\kabwe\elijah\lab1\models\ProductCategoryDto.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\services\CustomerActions.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\services\FileService.class
+edu\gcu\cst239\kabwe\elijah\milestone5\network\ProductStoreClient.class
 edu\gcu\cst239\kabwe\elijah\lab1\CoffeeMakerDemo.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\CommandLineRunner.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\services\InventoryManager.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\models\Product$Builder.class
+edu\gcu\cst239\kabwe\elijah\milestone5\service\ProductCommandService.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\StartupRunner.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\models\Product.class
 edu\gcu\cst239\kabwe\elijah\lab1\WaterTank.class
@@ -18,6 +20,7 @@ edu\gcu\cst239\kabwe\elijah\lab1\FilterBasket.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\services\StoreManagerActions.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\util\InputUtilities.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\services\FileService$1.class
+edu\gcu\cst239\kabwe\elijah\milestone5\network\ProductStoreServer.class
 edu\gcu\cst239\kabwe\elijah\lab1\CoffeeMaker.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\services\Component.class
 edu\gcu\cst239\kabwe\elijah\lab1\milestone_app\services\CheckoutService.class
